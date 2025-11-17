@@ -1,0 +1,53 @@
+/* Fuente Markazi text*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Montserrat", sans-serif; */ 
+
+body { 
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #4a3b2a ;
+  font-size: 56px;
+}
+
+h2 {
+  color: #7b4b26;
+  font-size: 24px;
+}
+
+h3 {
+  color: #5f4842;
+  font-size: 24px;
+}
+
+p {
+  color: #af8d86;
+  font-size: 16px; 
+}
+.footer-p {
+  font-size: 12px;
+}
+
+.p-italico {
+  font-style: italic;
+  font-weight: 800;
+}
+
+li{
+  color: #7b4b26;
+  font-size: 16px;
+}
+
+.li-nav { 
+  list-style-type: none;
+}
+
+.a-nav {
+  text-decoration: none;
+}
+
+.li-lista{
+  text-decoration: none;
+  list-style-type: none;
+}
