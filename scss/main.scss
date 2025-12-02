@@ -1,0 +1,17 @@
+// UTILITIES
+@use "./utilities/variables";
+@use "./utilities/mixins";
+
+// BASE
+@use "./partials/base/reset";
+@use "./partials/base/tipografia";
+@use "./partials/base/Globals";
+
+// LAYOUT
+@use "./layout/header";
+@use "./layout/main";
+@use "./layout/footer";
+
+// COMPONENTS
+@use "./components/galeria";
+@use "./components/mapa";

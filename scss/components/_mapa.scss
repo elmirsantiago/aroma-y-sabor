@@ -1,0 +1,8 @@
+@use "../utilities/mixins";
+@use "../utilities/variables";
+
+.ilustracion-mapa img {
+  @include mixins.responsive-img(400px);
+  border-radius: variables.$radius;
+  margin: 20px auto;
+}

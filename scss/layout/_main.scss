@@ -1,0 +1,12 @@
+@use "../utilities/mixins";
+
+main{
+  max-width: 900px;
+  margin: 40px;
+  padding: 20px;
+  text-align: center;
+}
+.img-principal {
+  @include mixins.responsive-img(600px);
+  margin: 25px auto;
+}

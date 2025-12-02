@@ -1,65 +1,15 @@
 /* Fuente Markazi text*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-/* font-family: "Montserrat", sans-serif; */ 
-
-body { 
-  font-family: "Montserrat", sans-serif;
-  background-color: #fdfaf6;
-  color: #4a3b2a;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
-.bg-nav-propio{
-  background-color: #e4c59e;
-}
-.cafeteria-logo img{
-  width: 120px;
-}
-main{
-  max-width: 900px;
-  margin: 40px;
-  padding: 20px;
-  text-align: center;
-}
-h1 {
-  color: #4a3b2a ;
-  font-size: 56px;
-  margin: 10px;
-}
-.img-principal{
-  width: 100%;
-  max-width: 600px;
-  margin: 25px;
-  display: block;
-}
 
-h2 {
-  color: #7b4b26;
-  font-size: 24px;
-  padding: 16px;
-}
-
-h3 {
-  color: #5f4842;
-  font-size: 24px;
-  padding: 16px;
-}
-
-p {
-  color: #af8d86;
-  font-size: 16px; 
-}
-footer{
-  background-color: #e4c59e;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+/* font-family: "Montserrat", sans-serif; */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fdfaf6;
   color: #4a3b2a;
-}
-.footer-p {
-  font-size: 12px;
 }
 
 .p-italico {
@@ -67,46 +17,83 @@ footer{
   font-weight: 800;
 }
 
-li{
+li {
   color: #7b4b26;
   font-size: 16px;
 }
 
-.li-lista{
+.li-lista {
   text-decoration: none;
   list-style-type: none;
 }
-.ilustracion-mapa img{
-  width: 100%;
-  max-width: 400px;
-  display: block;
-  margin: 20px;
-  border-radius: 10px;
+
+.bg-nav-propio {
+  background-color: #e4c59e;
 }
-.galeria-container{
+
+.cafeteria-logo img {
+  width: 120px;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+.img-principal {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  margin: 25px auto;
+}
+
+footer {
+  background-color: #e4c59e;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #4a3b2a;
+}
+
+.footer-p {
+  font-size: 12px;
+}
+
+.galeria-container {
   max-width: 1100px;
   margin: 40px;
   padding: 0 20px;
 }
-.galeria-container h2{
+
+.galeria-container h2 {
   text-align: center;
   color: #7b4b26;
   margin-bottom: 30px;
 }
 
-.galeria-grid{
+.galeria-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
-.galeria-grid img{
+
+.galeria-grid img {
   width: 100%;
   height: 220px;
-  border-radius: 10px; 
-  object-fit: cover; 
-} 
+  border-radius: 10px;
+  object-fit: cover;
+}
 
+.ilustracion-mapa img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin: 20px auto;
+}
 
-
-
-
+/*# sourceMappingURL=style.css.map */

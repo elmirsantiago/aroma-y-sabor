@@ -1,0 +1,20 @@
+@use "../../utilities/variables";
+
+body { 
+  font-family: "Montserrat", sans-serif;
+  background-color: #fdfaf6;
+  color: #4a3b2a;
+}
+.p-italico {
+  font-style: italic;
+  font-weight: 800;
+}
+li{
+  color: #7b4b26;
+  font-size: 16px;
+}
+
+.li-lista{
+  text-decoration: none;
+  list-style-type: none;
+}
