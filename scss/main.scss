@@ -1,17 +1,17 @@
 // UTILITIES
 @use "./utilities/variables";
 @use "./utilities/mixins";
+@use "./utilities/extend";
 
 // BASE
 @use "./partials/base/reset";
 @use "./partials/base/tipografia";
-@use "./partials/base/Globals";
-
-// LAYOUT
-@use "./layout/header";
-@use "./layout/main";
-@use "./layout/footer";
 
 // COMPONENTS
-@use "./components/galeria";
-@use "./components/mapa";
+@use "./components/cards";
+@use "./components/footer";
+@use "./components/general";
+@use "./components/header";
+
+ 
+

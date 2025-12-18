@@ -1,0 +1,25 @@
+.galeria-container {
+    max-width: $max-galeria;
+    margin: 40px;
+    padding: 0 20px;
+}
+
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+  img {
+    width: 100%;
+    height: 220px;
+    border-radius: $radius;
+    object-fit: cover;
+}
+

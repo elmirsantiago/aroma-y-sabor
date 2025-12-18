@@ -1,12 +1,6 @@
-@mixin flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@mixin img-responsive($max) {
+  width: 100%;
+  max-width: $max;
+  display: block;
 }
 
-@mixin responsive-img($size) {
-  width: 100%;
-  max-width: $size;
-  display: block;
-  margin: 0 auto;
-}
