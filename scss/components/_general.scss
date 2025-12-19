@@ -1,16 +1,14 @@
+@use "../utilities/mixins";
+@use "../utilities/variables";
+
 body {
-  background-color: #fdfaf6;
-  color: #4a3b2a;
-  display: flex;
-  justify-content: center; 
-  align-items: center;
+  background-color: variables.$color-fondo;
+  color: variables.$color-principal;
 }
 
 main {
-  width: 100%;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: variables.$max-main;
+  margin: 40px auto;
   padding: 20px;
   text-align: center;
 }
@@ -18,29 +16,29 @@ main {
 h1 {
   font-size: 56px;
   margin: 10px;
-  color: #4a3b2a;
+  color: variables.$color-principal;
 }
 
 h2 {
   font-size: 24px;
   padding: 16px;
-  color: #7b4b26;
+  color: variables.$color-secundario;
 }
 
 h3 {
   font-size: 24px;
   padding: 16px;
-  color: #5f4842;
+  color: variables.$color-terciario;
 }
 
 p {
   font-size: 16px;
-  color: #af8d86;
+  color: variables.$color-parrafo;
 }
 
 li {
   font-size: 16px;
-  color: #7b4b26;
+  color: variables.$color-secundario;
 }
 
 .li-lista {
@@ -52,20 +50,19 @@ li {
   font-style: italic;
   font-weight: 800;
 }
+
 .menu-item {
-  font-style: italic;
-  color: #7b4b26
+  font-style: italic
 }
 
-/* imágenes */
+/* IMÁGENES */
 .img-principal {
-  @include img-responsive(600px);
+  @include mixins.img-responsive(600px);
   margin: 25px auto;
 }
 
 .ilustracion-mapa img {
-  @include img-responsive(400px);
+  @include mixins.img-responsive(400px);
   margin: 20px auto;
-  border-radius: $radius;
+  border-radius: variables.$radius;
 }
-

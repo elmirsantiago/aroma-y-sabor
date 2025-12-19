@@ -1,76 +1,20 @@
+@charset "UTF-8";
 /* Fuente Markazi text*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* font-family: "Montserrat", sans-serif; */
-body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #fdfaf6;
-  color: #4a3b2a;
-}
-
-.p-italico {
-  font-style: italic;
-  font-weight: 800;
-}
-
-li {
-  color: #7b4b26;
-  font-size: 16px;
-}
-
-.li-lista {
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.bg-nav-propio {
-  background-color: #e4c59e;
-}
-
-.cafeteria-logo img {
-  width: 120px;
-}
-
-main {
-  max-width: 900px;
-  margin: 40px;
-  padding: 20px;
-  text-align: center;
-}
-
-.img-principal {
-  width: 100%;
-  max-width: 600px;
-  display: block;
-  margin: 0 auto;
-  margin: 25px auto;
-}
-
-footer {
-  background-color: #e4c59e;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
-  color: #4a3b2a;
-}
-
-.footer-p {
-  font-size: 12px;
-}
-
 .galeria-container {
   max-width: 1100px;
   margin: 40px;
   padding: 0 20px;
 }
-
 .galeria-container h2 {
   text-align: center;
-  color: #7b4b26;
   margin-bottom: 30px;
 }
 
@@ -79,7 +23,6 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
-
 .galeria-grid img {
   width: 100%;
   height: 220px;
@@ -87,13 +30,97 @@ footer {
   object-fit: cover;
 }
 
+footer {
+  background-color: #5f4842;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #4a3b2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-p {
+  font-size: 12px;
+}
+
+body {
+  background-color: #fdfaf6;
+  color: #4a3b2a;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 56px;
+  margin: 10px;
+  color: #4a3b2a;
+}
+
+h2 {
+  font-size: 24px;
+  padding: 16px;
+  color: #7b4b26;
+}
+
+h3 {
+  font-size: 24px;
+  padding: 16px;
+  color: #5f4842;
+}
+
+p {
+  font-size: 16px;
+  color: #af8d86;
+}
+
+li {
+  font-size: 16px;
+  color: #7b4b26;
+}
+
+.li-lista {
+  list-style: none;
+  text-decoration: none;
+}
+
+.p-italico {
+  font-style: italic;
+  font-weight: 800;
+}
+
+.menu-item {
+  font-style: italic;
+}
+
+/* IMÁGENES */
+.img-principal {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 25px auto;
+}
+
 .ilustracion-mapa img {
   width: 100%;
   max-width: 400px;
   display: block;
-  margin: 0 auto;
-  border-radius: 10px;
   margin: 20px auto;
+  border-radius: 10px;
+}
+
+.bg-nav-propio {
+  background-color: #e4c59e;
+}
+
+.cafeteria-logo img {
+  width: 120px;
 }
 
 /*# sourceMappingURL=style.css.map */

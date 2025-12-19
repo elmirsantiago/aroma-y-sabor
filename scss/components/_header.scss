@@ -1,5 +1,7 @@
+@use "../utilities/variables";
+
 .bg-nav-propio {
-  background-color: #5f4842;
+  background-color: variables.$color-nav-footer;
 }
 
 .cafeteria-logo img {
