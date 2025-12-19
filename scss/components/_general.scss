@@ -1,11 +1,16 @@
 body {
   background-color: #fdfaf6;
   color: #4a3b2a;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
 main {
-  max-width: $max-main;
-  margin: 40px auto;
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px;
   text-align: center;
 }
@@ -47,7 +52,10 @@ li {
   font-style: italic;
   font-weight: 800;
 }
-
+.menu-item {
+  font-style: italic;
+  color: #7b4b26
+}
 
 /* imágenes */
 .img-principal {
@@ -60,3 +68,4 @@ li {
   margin: 20px auto;
   border-radius: $radius;
 }
+
